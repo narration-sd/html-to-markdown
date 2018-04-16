@@ -1,0 +1,30 @@
+{
+  "name": "narrationsd/html-to-markdown",
+  "description": "provide conversion of html to markdown",
+  "license": "proprietary",
+  "homepage": "https://narrationsd.com",
+  "support": {
+    "email": "narrationsd@gmail.com",
+    "docs": "https://github.com/narration-sd/html-to-markdown/blob/master/README.md",
+  },
+  "version": "0.0.8",
+  "type": "craft-plugin",
+  "minimum-stability": "dev",
+  "require": {
+    "craftcms/cms": "^3.0.0",
+    "league/html-to-markdown": "^4.6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "narrationsd\\htmltomarkdown\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "html-to-markdown",
+    "schemaVersion": "1.0.0",
+    "hasSettings": false,
+    "hasCpSection": false,
+    "name": "HtmlToMarkdown",
+    "class": "narrationsd\\htmltomarkdown\\HtmlToMarkdown",
+  }
+}
