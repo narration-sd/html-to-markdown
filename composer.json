@@ -1,13 +1,12 @@
 {
   "name": "narrationsd/html-to-markdown",
-  "description": "provide conversion of html to markdown",
+  "description": "provide conversion of html to markdown in Craft CMS Twig scripts",
   "license": "proprietary",
   "homepage": "https://narrationsd.com",
   "support": {
     "email": "narrationsd@gmail.com",
     "docs": "https://github.com/narration-sd/html-to-markdown/blob/master/README.md"
   },
-  "version": "0.0.8",
   "type": "craft-plugin",
   "minimum-stability": "dev",
   "require": {

@@ -55,7 +55,7 @@ Here's a more extensive example showing several options being used.
   italic_style: '*',
   bold_style: '__',
   hard_break: true }
-%} {# hard_break true is not default; true means Github Markdown style #}
+%}
 
 <h2>Here with some options set:</h2>
 <pre>{{ testhtml | htmltomarkdown(options) }}</pre>
@@ -76,10 +76,12 @@ and there it was.
 
 Images show as expected in Markdown source when you set the alt: ![The image](https://narrationsd.com/resources/images/share/svolvaer.jpg)
 
-And links are as you expect, [The Cobbler's Shoes](https://narrationsd.com)</pre>
+And links are as you expect, [The Cobbler's Shoes](https://narrationsd.com)
+</pre>
 
- 
-<h2>Here with some options set:</h2>
+
+### Here with some options set
+
 <pre>### Here's a bit of Markdown from html...
 
 We can control how *em* and __strong__ come out.
@@ -91,7 +93,7 @@ Images show as expected in Markdown source when you set the alt: ![The image](ht
 
 And links are as you expect, [The Cobbler's Shoes](https://narrationsd.com)</pre>
 
-n.b. You may note that the distinction for the `hard_break` option is quite subtle, but it is there, and the descriptoiin can be found from the link in the next section.
+n.b. You may note that the distinction for the `hard_break` option is quite subtle, but it is there, and the description can be found from the link in the next section.
 
 ## Documentation for Options
 
