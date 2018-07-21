@@ -31,7 +31,7 @@ class HtmlToMarkdown extends Plugin
         self::$plugin = $this;
         $this->name = $this->getName();
 
-        Craft::$app->view->twig->addExtension(new HtmlToMdTwigExtension);
+        Craft::$app->view->registerTwigExtension(new HtmlToMdTwigExtension);
     }
 
     /**
